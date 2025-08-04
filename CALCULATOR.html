@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="calculator.css">
+    <title>CALCULATOR</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">                                                                                                                                                                        
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+<body style="text-align: center;">
+  <h1>CALCULATOR</h1>
+  <div class="calc"  >
+     <input type="text" id="display" readonly>
+     <table> 
+     <tr>
+        <td><button onclick="appendd('+')">+</button></td>
+        <td><button onclick="appendd('-')">-</button></td>
+        <td><button onclick="clr()">CLEAR</button></td> 
+     </tr>
+     <tr>
+        <td><button onclick="appendd('*')">*</button> </td>
+        <td><button onclick="appendd('/')">/</button> </td>
+        <td><button onclick="appendd('%')">%</button> </td>
+     </tr>
+     <tr>
+    <td><button onclick="appendd('1')">1</button> </td>
+    <td><button onclick="appendd('2')">2</button> </td>
+    <td><button onclick="appendd('3')">3</button> </td>
+   </tr>
+   <tr>
+    <td><button onclick="appendd('4')">4</button> </td>
+    <td><button onclick="appendd('5')">5</button> </td>
+    <td><button onclick="appendd('6')">6</button> </td>
+   </tr>
+   <tr>
+    <td><button onclick="appendd('7')">7</button> </td>
+    <td><button onclick="appendd('8')">8</button> </td>
+    <td><button onclick="appendd('9')">9</button> </td>
+   </tr>
+   <tr>
+    <td><button onclick="appendd('0')">0</button> </td>
+    <td><button onclick="appendd('+')">.</button> </td>
+    <td><button onclick="res()">=</button> </td>
+   </tr>
+   </table>
+   </div>
+  <script src="calc.js"></script>
+</body>
+</html>
